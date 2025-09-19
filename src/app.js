@@ -11,7 +11,7 @@ const app = express();
 app.use(helmet());
 
 app.use(cors({
-    origin: process.env.Frontend_URL || 'https://portfolio-ihkh-delta.vercel.app',
+    origin: process.env.FRONTEND_URL || 'https://portfolio-ihkh-delta.vercel.app',
     credentials: true
 }));
 
